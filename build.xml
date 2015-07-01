@@ -2,7 +2,6 @@
 
 <project name="State" default="phpab">
 
-
     <target name="phpab" description="Generate autoloader scripts">
         <exec executable="phpab">
             <arg value="--output" />
